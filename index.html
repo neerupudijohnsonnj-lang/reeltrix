@@ -1,0 +1,1355 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reel Trix: Book Professional Instagram Reel Makers & Video Creators | Reels in 10 Minutes</title>
+    <meta name="description" content="World's first quick content service. Book professional reel makers, get edited Instagram Reels delivered in 10 minutes. Shot on iPhone. Starting at ₹1,999.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'flashoot-blue': '#00D4FF',
+                        'flashoot-purple': '#8B5CF6',
+                        'flashoot-dark': '#0A0A0F',
+                        'flashoot-gray': '#1A1A24',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #00D4FF 0%, #8B5CF6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, #00D4FF 0%, #8B5CF6 100%);
+        }
+        
+        .hero-bg {
+            background: radial-gradient(circle at 20% 50%, rgba(139, 92, 246, 0.15) 0%, transparent 50%),
+                        radial-gradient(circle at 80% 50%, rgba(0, 212, 255, 0.15) 0%, transparent 50%),
+                        #0A0A0F;
+        }
+        
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(0, 212, 255, 0.2);
+        }
+        
+        .animate-float {
+            animation: float 3s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        .sticky-header {
+            backdrop-filter: blur(10px);
+            background: rgba(10, 10, 15, 0.9);
+        }
+    </style>
+</head>
+<body class="bg-flashoot-dark text-white">
+
+    <!-- Header / Navbar -->
+    <header class="fixed top-0 w-full z-50 sticky-header border-b border-gray-800">
+        <nav class="container mx-auto px-4 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-2">
+                    <i class="fas fa-play-circle text-flashoot-blue text-2xl"></i>
+                    <span class="text-2xl font-bold">Reel Trix</span>
+                </div>
+                
+                <div class="hidden lg:flex items-center space-x-8">
+                    <a href="#home" class="hover:text-flashoot-blue transition">Home</a>
+                    <a href="#features" class="hover:text-flashoot-blue transition">Features</a>
+                    <a href="#pricing" class="hover:text-flashoot-blue transition">Pricing</a>
+                    <a href="#weddings" class="hover:text-flashoot-blue transition">For Weddings</a>
+                    <a href="#brands" class="hover:text-flashoot-blue transition">For Brands</a>
+                    <a href="#become" class="hover:text-flashoot-blue transition">Become a Reel Trix Creator</a>
+                    <a href="#blog" class="hover:text-flashoot-blue transition">Blog</a>
+                </div>
+                
+                <div class="flex items-center space-x-4">
+                    <button onclick="openBookingModal()" class="px-6 py-2 gradient-bg text-white font-semibold rounded-lg hover:opacity-90 transition">
+                        Book Now
+                    </button>
+                    <button class="lg:hidden text-2xl">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-bg min-h-screen flex items-center pt-20">
+        <div class="container mx-auto px-4 py-20">
+            <div class="text-center max-w-5xl mx-auto">
+                <div class="mb-8 animate-float">
+                    <div class="inline-block px-4 py-2 bg-flashoot-gray rounded-full border border-gray-700 mb-6">
+                        <span class="text-sm">🎬 Shot on iPhone</span>
+                    </div>
+                </div>
+                
+                <h1 class="text-5xl md:text-7xl lg:text-8xl font-black mb-6 leading-tight">
+                    Your Story <span class="text-flashoot-blue">•</span> Our Lens<br>
+                    <span class="gradient-text">Reels in 10 Minutes</span>
+                </h1>
+                
+                <p class="text-2xl md:text-3xl font-bold text-gray-300 mb-12 tracking-wider">
+                    WORLD'S FIRST QUICK CONTENT SERVICE
+                </p>
+                
+                <div class="flex flex-wrap justify-center gap-4 mb-12">
+                    <div class="flex items-center space-x-2 bg-flashoot-gray px-4 py-2 rounded-lg">
+                        <i class="fas fa-mobile-alt text-flashoot-blue"></i>
+                        <span class="text-sm font-semibold">Shot on iPhone</span>
+                    </div>
+                    <div class="flex items-center space-x-2 bg-flashoot-gray px-4 py-2 rounded-lg">
+                        <i class="fas fa-tv text-flashoot-purple"></i>
+                        <span class="text-sm font-semibold">Featured on Shark Tank India S5</span>
+                    </div>
+                    <div class="flex items-center space-x-2 bg-flashoot-gray px-4 py-2 rounded-lg">
+                        <i class="fas fa-award text-flashoot-blue"></i>
+                        <span class="text-sm font-semibold">Backed by ISB</span>
+                    </div>
+                    <div class="flex items-center space-x-2 bg-flashoot-gray px-4 py-2 rounded-lg">
+                        <i class="fas fa-video text-flashoot-purple"></i>
+                        <span class="text-sm font-semibold">100,000+ Reels Delivered</span>
+                    </div>
+                    <div class="flex items-center space-x-2 bg-flashoot-gray px-4 py-2 rounded-lg">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <span class="text-sm font-semibold">4.9/5 Rating</span>
+                    </div>
+                    <div class="flex items-center space-x-2 bg-flashoot-gray px-4 py-2 rounded-lg">
+                        <i class="fas fa-users text-flashoot-blue"></i>
+                        <span class="text-sm font-semibold">2,000+ Certified Creators</span>
+                    </div>
+                    <div class="flex items-center space-x-2 bg-flashoot-gray px-4 py-2 rounded-lg">
+                        <i class="fas fa-globe text-flashoot-purple"></i>
+                        <span class="text-sm font-semibold">6 Countries • 12 Cities</span>
+                    </div>
+                </div>
+
+                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                    <button onclick="openBookingModal()" class="px-8 py-4 gradient-bg text-white font-bold text-lg rounded-xl hover:opacity-90 transition transform hover:scale-105">
+                        <i class="fas fa-camera mr-2"></i>Book a Reel Maker Now
+                    </button>
+                </div>
+                
+                <p class="text-sm text-gray-500 mt-6">*Shot on iPhone</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shark Tank Feature Section -->
+    <section class="py-12 bg-flashoot-gray border-y border-gray-800">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center justify-center gap-8 max-w-4xl mx-auto">
+                <div class="text-center md:text-left">
+                    <div class="inline-block bg-gradient-to-r from-flashoot-blue to-flashoot-purple px-6 py-2 rounded-full mb-4">
+                        <span class="font-bold">🦈 AS SEEN ON</span>
+                    </div>
+                    <h3 class="text-3xl font-black mb-2">Shark Tank India</h3>
+                    <p class="text-gray-400">Season 5 • Episode 46 • March 2026</p>
+                </div>
+                <div class="flex items-center gap-6">
+                    <div class="text-center">
+                        <div class="text-3xl font-black gradient-text">₹220M</div>
+                        <div class="text-sm text-gray-400">Valuation</div>
+                    </div>
+                    <div class="h-12 w-px bg-gray-700"></div>
+                    <div class="text-center">
+                        <div class="text-3xl font-black gradient-text">2023</div>
+                        <div class="text-sm text-gray-400">Founded</div>
+                    </div>
+                    <div class="h-12 w-px bg-gray-700"></div>
+                    <div class="text-center">
+                        <div class="text-3xl font-black gradient-text">Hyderabad</div>
+                        <div class="text-sm text-gray-400">HQ</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="py-20 bg-flashoot-gray">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl md:text-5xl font-black text-center mb-16">
+                Not Just Instant Delivery, <span class="gradient-text">But..</span>
+            </h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-flashoot-dark p-8 rounded-2xl card-hover border border-gray-800">
+                    <div class="w-16 h-16 gradient-bg rounded-xl flex items-center justify-center mb-6">
+                        <i class="fas fa-certificate text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Trained & Certified Reel Makers</h3>
+                    <p class="text-gray-400">6-step certification process to ensure quality</p>
+                </div>
+                
+                <div class="bg-flashoot-dark p-8 rounded-2xl card-hover border border-gray-800">
+                    <div class="w-16 h-16 gradient-bg rounded-xl flex items-center justify-center mb-6">
+                        <i class="fas fa-calendar-check text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Easy Booking</h3>
+                    <p class="text-gray-400">Book in seconds, just like ordering a cab</p>
+                </div>
+
+                <div class="bg-flashoot-dark p-8 rounded-2xl card-hover border border-gray-800">
+                    <div class="w-16 h-16 gradient-bg rounded-xl flex items-center justify-center mb-6">
+                        <i class="fas fa-tag text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Unbelievable Pricing</h3>
+                    <p class="text-gray-400">Starting at ₹1,999 • No hidden charges</p>
+                </div>
+                
+                <div class="bg-flashoot-dark p-8 rounded-2xl card-hover border border-gray-800">
+                    <div class="w-16 h-16 gradient-bg rounded-xl flex items-center justify-center mb-6">
+                        <i class="fas fa-shield-alt text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Safe & Secure</h3>
+                    <p class="text-gray-400">Female reel maker option available</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Plans Section -->
+    <section id="pricing" class="py-20 bg-flashoot-dark">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl md:text-5xl font-black text-center mb-4">
+                <span class="gradient-text">Bestsellers</span>
+            </h2>
+            <p class="text-center text-gray-400 mb-16 text-lg">Choose the perfect plan for your content needs</p>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <!-- Hourly Plan -->
+                <div class="bg-flashoot-gray p-8 rounded-2xl border-2 border-flashoot-blue relative card-hover">
+                    <div class="absolute -top-4 left-1/2 transform -translate-x-1/2">
+                        <span class="bg-flashoot-blue text-white px-4 py-1 rounded-full text-sm font-bold">MOST POPULAR</span>
+                    </div>
+                    <h3 class="text-3xl font-black mb-2">Hourly Plan</h3>
+                    <div class="mb-6">
+                        <span class="text-5xl font-black gradient-text">₹1,999</span>
+                        <span class="text-gray-400"> + GST</span>
+                    </div>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-flashoot-blue mt-1 mr-3"></i>
+                            <span>1 Hour Shoot</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-flashoot-blue mt-1 mr-3"></i>
+                            <span>1 Edited Reel</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-flashoot-blue mt-1 mr-3"></i>
+                            <span>10 min delivery</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-flashoot-blue mt-1 mr-3"></i>
+                            <span>Shot on iPhone 13 Pro+</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-flashoot-blue mt-1 mr-3"></i>
+                            <span>No hidden charges</span>
+                        </li>
+                    </ul>
+                    <button onclick="openBookingModal()" class="w-full py-4 gradient-bg text-white font-bold rounded-xl hover:opacity-90 transition">
+                        Book Now
+                    </button>
+                </div>
+
+                <!-- Half-Day Plan -->
+                <div class="bg-flashoot-gray p-8 rounded-2xl border border-gray-800 card-hover">
+                    <h3 class="text-3xl font-black mb-2">Half-Day Plan</h3>
+                    <div class="mb-6">
+                        <span class="text-5xl font-black gradient-text">₹4,999</span>
+                        <span class="text-gray-400"> + GST</span>
+                    </div>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-flashoot-purple mt-1 mr-3"></i>
+                            <span>Up to 3 Hours Shoot</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-flashoot-purple mt-1 mr-3"></i>
+                            <span>2 Edited Reels</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-flashoot-purple mt-1 mr-3"></i>
+                            <span>Fast delivery</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-flashoot-purple mt-1 mr-3"></i>
+                            <span>Shot on iPhone 13 Pro+</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-flashoot-purple mt-1 mr-3"></i>
+                            <span>No hidden charges</span>
+                        </li>
+                    </ul>
+                    <button onclick="openBookingModal()" class="w-full py-4 bg-white text-flashoot-dark font-bold rounded-xl hover:bg-gray-200 transition">
+                        Book Now
+                    </button>
+                </div>
+                
+                <!-- Day-Long Plan -->
+                <div class="bg-flashoot-gray p-8 rounded-2xl border border-gray-800 card-hover">
+                    <h3 class="text-3xl font-black mb-2">Day-Long Plan</h3>
+                    <div class="mb-6">
+                        <span class="text-5xl font-black gradient-text">₹9,999</span>
+                        <span class="text-gray-400"> + GST</span>
+                    </div>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-flashoot-blue mt-1 mr-3"></i>
+                            <span>Full Day Coverage</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-flashoot-blue mt-1 mr-3"></i>
+                            <span>3 Edited Reels</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-flashoot-blue mt-1 mr-3"></i>
+                            <span>RAW Footage Included</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-flashoot-blue mt-1 mr-3"></i>
+                            <span>15+ Mobile Photos</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-flashoot-blue mt-1 mr-3"></i>
+                            <span>No hidden charges</span>
+                        </li>
+                    </ul>
+                    <button onclick="openBookingModal()" class="w-full py-4 gradient-bg text-white font-bold rounded-xl hover:opacity-90 transition">
+                        Book Now
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 bg-flashoot-gray">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl md:text-5xl font-black text-center mb-16">
+                Features That Make Us <span class="gradient-text">Stand Out</span>
+            </h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-flashoot-dark p-8 rounded-2xl card-hover border border-gray-800">
+                    <i class="fas fa-cloud text-4xl text-flashoot-blue mb-4"></i>
+                    <h3 class="text-xl font-bold mb-3">Content Storage</h3>
+                    <p class="text-gray-400">6 months free cloud storage for all your content</p>
+                </div>
+                
+                <div class="bg-flashoot-dark p-8 rounded-2xl card-hover border border-gray-800">
+                    <i class="fas fa-bolt text-4xl text-flashoot-purple mb-4"></i>
+                    <h3 class="text-xl font-bold mb-3">Instant Booking</h3>
+                    <p class="text-gray-400">Book a reel maker in seconds, anytime</p>
+                </div>
+                
+                <div class="bg-flashoot-dark p-8 rounded-2xl card-hover border border-gray-800">
+                    <i class="fas fa-map-marker-alt text-4xl text-flashoot-blue mb-4"></i>
+                    <h3 class="text-xl font-bold mb-3">Live Tracking</h3>
+                    <p class="text-gray-400">Track your reel maker in real-time</p>
+                </div>
+
+                <div class="bg-flashoot-dark p-8 rounded-2xl card-hover border border-gray-800">
+                    <i class="fas fa-headset text-4xl text-flashoot-purple mb-4"></i>
+                    <h3 class="text-xl font-bold mb-3">24/7 Customer Support</h3>
+                    <p class="text-gray-400">Always here to help you</p>
+                </div>
+                
+                <div class="bg-flashoot-dark p-8 rounded-2xl card-hover border border-gray-800">
+                    <i class="fas fa-female text-4xl text-flashoot-blue mb-4"></i>
+                    <h3 class="text-xl font-bold mb-3">Female Reel-Maker Option</h3>
+                    <p class="text-gray-400">Choose female creators for your comfort</p>
+                </div>
+                
+                <div class="bg-flashoot-dark p-8 rounded-2xl card-hover border border-gray-800">
+                    <i class="fas fa-user-friends text-4xl text-flashoot-purple mb-4"></i>
+                    <h3 class="text-xl font-bold mb-3">Pick a Partner</h3>
+                    <p class="text-gray-400">Personalized reel maker selection</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Packages Section -->
+    <section id="weddings" class="py-20 bg-flashoot-dark">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl md:text-5xl font-black text-center mb-16">
+                <span class="gradient-text">Special Packages</span>
+            </h2>
+            
+            <!-- Wedding Packages -->
+            <div class="mb-16">
+                <h3 class="text-3xl font-bold text-center mb-8">💍 Wedding Packages</h3>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
+                    <div class="bg-flashoot-gray p-6 rounded-2xl card-hover border border-gray-800">
+                        <h4 class="text-xl font-bold mb-3">Single Event</h4>
+                        <p class="text-3xl font-black gradient-text mb-4">₹14,999+</p>
+                        <p class="text-gray-400 text-sm mb-4">Perfect for one ceremony</p>
+                        <button onclick="openBookingModal()" class="w-full py-3 gradient-bg text-white font-bold rounded-xl hover:opacity-90 transition text-sm">
+                            Book Now
+                        </button>
+                    </div>
+                    
+                    <div class="bg-flashoot-gray p-6 rounded-2xl card-hover border border-gray-800">
+                        <h4 class="text-xl font-bold mb-3">Silver Package</h4>
+                        <p class="text-3xl font-black gradient-text mb-4">₹29,999+</p>
+                        <p class="text-gray-400 text-sm mb-4">Multiple events coverage</p>
+                        <button onclick="openBookingModal()" class="w-full py-3 gradient-bg text-white font-bold rounded-xl hover:opacity-90 transition text-sm">
+                            Book Now
+                        </button>
+                    </div>
+                    
+                    <div class="bg-flashoot-gray p-6 rounded-2xl card-hover border border-gray-800">
+                        <h4 class="text-xl font-bold mb-3">Gold Package</h4>
+                        <p class="text-3xl font-black gradient-text mb-4">₹59,999+</p>
+                        <p class="text-gray-400 text-sm mb-4">Premium full coverage</p>
+                        <button onclick="openBookingModal()" class="w-full py-3 gradient-bg text-white font-bold rounded-xl hover:opacity-90 transition text-sm">
+                            Book Now
+                        </button>
+                    </div>
+                    
+                    <div class="bg-gradient-to-br from-flashoot-blue to-flashoot-purple p-6 rounded-2xl card-hover">
+                        <h4 class="text-xl font-bold mb-3">Platinum/Luxe</h4>
+                        <p class="text-3xl font-black mb-4">₹1,99,999+</p>
+                        <p class="text-white text-sm mb-4">Cinematic experience</p>
+                        <button onclick="openBookingModal()" class="w-full py-3 bg-white text-flashoot-dark font-bold rounded-xl hover:bg-gray-200 transition text-sm">
+                            Book Luxe
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Business & Brands -->
+            <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <div class="bg-flashoot-gray p-8 rounded-2xl card-hover border border-gray-800">
+                    <i class="fas fa-briefcase text-5xl text-flashoot-purple mb-6"></i>
+                    <h3 class="text-2xl font-bold mb-3">Business & Brands</h3>
+                    <p class="text-3xl font-black gradient-text mb-4">Customised Pricing</p>
+                    <p class="text-gray-400 mb-6">Professional content for your brand • Product launches • Campaigns • Restaurant reels</p>
+                    <button onclick="openBookingModal()" class="w-full py-3 gradient-bg text-white font-bold rounded-xl hover:opacity-90 transition">
+                        Get Quote
+                    </button>
+                </div>
+                
+                <div class="bg-flashoot-gray p-8 rounded-2xl card-hover border border-gray-800">
+                    <i class="fas fa-globe text-5xl text-flashoot-blue mb-6"></i>
+                    <h3 class="text-2xl font-bold mb-3">International Services</h3>
+                    <p class="text-3xl font-black gradient-text mb-4">6 Countries</p>
+                    <p class="text-gray-400 mb-6">Now available in 12 cities across India, UAE, and USA</p>
+                    <button onclick="openBookingModal()" class="w-full py-3 gradient-bg text-white font-bold rounded-xl hover:opacity-90 transition">
+                        Check Availability
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Become a Reel Trix Creator Section -->
+    <section id="become" class="py-20 bg-gradient-to-br from-flashoot-purple to-flashoot-blue">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-4xl md:text-5xl font-black mb-6">
+                    Become a Reel Trix Creator
+                </h2>
+                <p class="text-xl md:text-2xl mb-8">
+                    Turn your creativity into income. Join 2,000+ certified creators earning on their own schedule.
+                </p>
+                
+                <div class="grid md:grid-cols-3 gap-6 mb-12">
+                    <div class="bg-white bg-opacity-10 backdrop-blur-lg p-6 rounded-xl">
+                        <div class="text-4xl mb-3">📱</div>
+                        <h3 class="font-bold mb-2">Flexible Work</h3>
+                        <p class="text-sm">Work when you want, where you want</p>
+                    </div>
+                    <div class="bg-white bg-opacity-10 backdrop-blur-lg p-6 rounded-xl">
+                        <div class="text-4xl mb-3">💰</div>
+                        <h3 class="font-bold mb-2">Great Earnings</h3>
+                        <p class="text-sm">Competitive payouts per gig</p>
+                    </div>
+                    <div class="bg-white bg-opacity-10 backdrop-blur-lg p-6 rounded-xl">
+                        <div class="text-4xl mb-3">🎓</div>
+                        <h3 class="font-bold mb-2">Free Training</h3>
+                        <p class="text-sm">6-step certification program</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white bg-opacity-10 backdrop-blur-lg p-8 rounded-2xl mb-8">
+                    <h3 class="text-2xl font-bold mb-4">Who Can Join?</h3>
+                    <div class="grid md:grid-cols-2 gap-4 text-left">
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-flashoot-blue mt-1 mr-3"></i>
+                            <span>Students looking for flexible income</span>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-flashoot-blue mt-1 mr-3"></i>
+                            <span>Homemakers with creative skills</span>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-flashoot-blue mt-1 mr-3"></i>
+                            <span>Young professionals & freelancers</span>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-flashoot-blue mt-1 mr-3"></i>
+                            <span>Anyone passionate about content creation</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <button onclick="openFlashooterModal()" class="px-12 py-4 bg-white text-flashoot-purple font-bold text-lg rounded-xl hover:bg-gray-200 transition transform hover:scale-105">
+                    <i class="fas fa-rocket mr-2"></i>Apply Now
+                </button>
+                <p class="text-sm mt-4 opacity-90">Join the creator economy revolution</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-20 bg-flashoot-gray">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl md:text-5xl font-black text-center mb-4">
+                What Our <span class="gradient-text">Loving Customers Say</span>
+            </h2>
+            <p class="text-center text-gray-400 mb-16">Real reviews from real creators</p>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-flashoot-dark p-6 rounded-2xl border border-gray-800">
+                    <div class="flex mb-4">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                    <p class="text-gray-300 mb-4">"Amazing service! Got my reel in literally 10 minutes. The quality is outstanding and the reel maker was super professional."</p>
+                    <p class="font-bold">Srikari Galigari</p>
+                </div>
+                
+                <div class="bg-flashoot-dark p-6 rounded-2xl border border-gray-800">
+                    <div class="flex mb-4">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                    <p class="text-gray-300 mb-4">"Best decision for my Instagram growth! The booking process is so easy and the results are incredible."</p>
+                    <p class="font-bold">Lanka Pravallika</p>
+                </div>
+                
+                <div class="bg-flashoot-dark p-6 rounded-2xl border border-gray-800">
+                    <div class="flex mb-4">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                    <p class="text-gray-300 mb-4">"Flashoot changed my content game completely. Professional quality at unbeatable prices!"</p>
+                    <p class="font-bold">Abhiram Kukunuri</p>
+                </div>
+
+                <div class="bg-flashoot-dark p-6 rounded-2xl border border-gray-800">
+                    <div class="flex mb-4">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                    <p class="text-gray-300 mb-4">"Super fast delivery and excellent quality. The female reel maker option made me feel very comfortable."</p>
+                    <p class="font-bold">Shireen Fathima</p>
+                </div>
+                
+                <div class="bg-flashoot-dark p-6 rounded-2xl border border-gray-800">
+                    <div class="flex mb-4">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                    <p class="text-gray-300 mb-4">"Used Flashoot for my wedding and couldn't be happier! Every moment was captured beautifully."</p>
+                    <p class="font-bold">Shreenija Rao</p>
+                </div>
+                
+                <div class="bg-flashoot-dark p-6 rounded-2xl border border-gray-800">
+                    <div class="flex mb-4">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                    <p class="text-gray-300 mb-4">"As a brand, Flashoot has been a game-changer for our social media content. Highly recommend!"</p>
+                    <p class="font-bold">Swetha Bandaru</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-20 bg-flashoot-dark">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <h2 class="text-4xl md:text-5xl font-black text-center mb-16">
+                <span class="gradient-text">Got Questions?</span>
+            </h2>
+            
+            <div class="space-y-4">
+                <div class="bg-flashoot-gray rounded-xl overflow-hidden border border-gray-800">
+                    <button onclick="toggleFAQ(this)" class="w-full p-6 text-left flex justify-between items-center hover:bg-flashoot-dark transition">
+                        <span class="font-bold text-lg">What exactly is Reel Trix?</span>
+                        <i class="fas fa-chevron-down transition-transform"></i>
+                    </button>
+                    <div class="faq-content hidden p-6 pt-0 text-gray-400">
+                        <p>Reel Trix is the world's first quick content service for Instagram Reels. We connect you with professional reel makers who shoot, edit, and deliver high-quality reels in just 10 minutes.</p>
+                    </div>
+                </div>
+
+                <div class="bg-flashoot-gray rounded-xl overflow-hidden border border-gray-800">
+                    <button onclick="toggleFAQ(this)" class="w-full p-6 text-left flex justify-between items-center hover:bg-flashoot-dark transition">
+                        <span class="font-bold text-lg">What's the difference from a regular videographer?</span>
+                        <i class="fas fa-chevron-down transition-transform"></i>
+                    </button>
+                    <div class="faq-content hidden p-6 pt-0 text-gray-400">
+                        <p>Unlike traditional videographers, Reel Trix offers instant booking, super-fast delivery (10 minutes!), affordable pricing, and specialized training for Instagram Reels. All content is shot on iPhone for that authentic social media look.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-flashoot-gray rounded-xl overflow-hidden border border-gray-800">
+                    <button onclick="toggleFAQ(this)" class="w-full p-6 text-left flex justify-between items-center hover:bg-flashoot-dark transition">
+                        <span class="font-bold text-lg">What packages do you offer?</span>
+                        <i class="fas fa-chevron-down transition-transform"></i>
+                    </button>
+                    <div class="faq-content hidden p-6 pt-0 text-gray-400">
+                        <p>We offer Hourly Plans (₹1,999), Half-Day Plans (₹4,999), Wedding Packages (starting ₹14,999), Business & Brand packages (custom pricing), and our premium Luxe Package (₹1,99,999).</p>
+                    </div>
+                </div>
+                
+                <div class="bg-flashoot-gray rounded-xl overflow-hidden border border-gray-800">
+                    <button onclick="toggleFAQ(this)" class="w-full p-6 text-left flex justify-between items-center hover:bg-flashoot-dark transition">
+                        <span class="font-bold text-lg">Is everything shot on iPhone?</span>
+                        <i class="fas fa-chevron-down transition-transform"></i>
+                    </button>
+                    <div class="faq-content hidden p-6 pt-0 text-gray-400">
+                        <p>Yes! All our content is shot on iPhone 13 Pro+ or newer models. This ensures high-quality, authentic-looking content perfect for social media.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-flashoot-gray rounded-xl overflow-hidden border border-gray-800">
+                    <button onclick="toggleFAQ(this)" class="w-full p-6 text-left flex justify-between items-center hover:bg-flashoot-dark transition">
+                        <span class="font-bold text-lg">How fast is the delivery?</span>
+                        <i class="fas fa-chevron-down transition-transform"></i>
+                    </button>
+                    <div class="faq-content hidden p-6 pt-0 text-gray-400">
+                        <p>Our standard delivery time is 10 minutes for edited reels! This is what makes Flashoot truly unique in the industry.</p>
+                    </div>
+                </div>
+
+                <div class="bg-flashoot-gray rounded-xl overflow-hidden border border-gray-800">
+                    <button onclick="toggleFAQ(this)" class="w-full p-6 text-left flex justify-between items-center hover:bg-flashoot-dark transition">
+                        <span class="font-bold text-lg">Can I request a female Flashooter?</span>
+                        <i class="fas fa-chevron-down transition-transform"></i>
+                    </button>
+                    <div class="faq-content hidden p-6 pt-0 text-gray-400">
+                        <p>Absolutely! We prioritize your comfort and safety. You can specifically request a female reel maker during the booking process.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-flashoot-gray rounded-xl overflow-hidden border border-gray-800">
+                    <button onclick="toggleFAQ(this)" class="w-full p-6 text-left flex justify-between items-center hover:bg-flashoot-dark transition">
+                        <span class="font-bold text-lg">What's your cancellation policy?</span>
+                        <i class="fas fa-chevron-down transition-transform"></i>
+                    </button>
+                    <div class="faq-content hidden p-6 pt-0 text-gray-400">
+                        <p>You can cancel free of charge up to 3 hours before your scheduled booking. Cancellations within 3 hours of the booking time will incur a ₹699 cancellation fee.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-flashoot-gray rounded-xl overflow-hidden border border-gray-800">
+                    <button onclick="toggleFAQ(this)" class="w-full p-6 text-left flex justify-between items-center hover:bg-flashoot-dark transition">
+                        <span class="font-bold text-lg">Are there any travel charges?</span>
+                        <i class="fas fa-chevron-down transition-transform"></i>
+                    </button>
+                    <div class="faq-content hidden p-6 pt-0 text-gray-400">
+                        <p>Travel charges may apply for locations beyond 15 km from the Flashooter's base location. Any additional travel costs (petrol/Rapido) will be clearly shown during booking and reimbursed by the client.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="py-20 bg-flashoot-dark">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl md:text-5xl font-black text-center mb-4">
+                <span class="gradient-text">Latest from Our Blog</span>
+            </h2>
+            <p class="text-center text-gray-400 mb-16 text-lg">Tips, trends, and insights for content creators</p>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+                <!-- Blog Post 1 -->
+                <article class="bg-flashoot-gray rounded-2xl overflow-hidden card-hover border border-gray-800">
+                    <div class="h-48 bg-gradient-to-br from-flashoot-blue to-flashoot-purple flex items-center justify-center">
+                        <i class="fas fa-video text-6xl text-white opacity-50"></i>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center gap-2 mb-3">
+                            <span class="text-xs bg-flashoot-blue bg-opacity-20 text-flashoot-blue px-3 py-1 rounded-full">Tips & Tricks</span>
+                            <span class="text-xs text-gray-500">5 min read</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">10 Tips to Make Your Instagram Reels Go Viral</h3>
+                        <p class="text-gray-400 mb-4">Learn the secrets to creating engaging content that captures attention and boosts your reach on Instagram.</p>
+                        <a href="#" class="text-flashoot-blue hover:text-flashoot-purple transition font-semibold">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 2 -->
+                <article class="bg-flashoot-gray rounded-2xl overflow-hidden card-hover border border-gray-800">
+                    <div class="h-48 bg-gradient-to-br from-flashoot-purple to-pink-500 flex items-center justify-center">
+                        <i class="fas fa-mobile-alt text-6xl text-white opacity-50"></i>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center gap-2 mb-3">
+                            <span class="text-xs bg-flashoot-purple bg-opacity-20 text-flashoot-purple px-3 py-1 rounded-full">iPhone Tips</span>
+                            <span class="text-xs text-gray-500">4 min read</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Why iPhone is Perfect for Professional Reels</h3>
+                        <p class="text-gray-400 mb-4">Discover why we exclusively use iPhone for shooting and how it delivers cinema-quality content.</p>
+                        <a href="#" class="text-flashoot-blue hover:text-flashoot-purple transition font-semibold">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 3 -->
+                <article class="bg-flashoot-gray rounded-2xl overflow-hidden card-hover border border-gray-800">
+                    <div class="h-48 bg-gradient-to-br from-yellow-500 to-orange-500 flex items-center justify-center">
+                        <i class="fas fa-lightbulb text-6xl text-white opacity-50"></i>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center gap-2 mb-3">
+                            <span class="text-xs bg-yellow-500 bg-opacity-20 text-yellow-500 px-3 py-1 rounded-full">Business</span>
+                            <span class="text-xs text-gray-500">6 min read</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">How Brands Can Leverage Quick Content</h3>
+                        <p class="text-gray-400 mb-4">A guide for businesses on using fast, authentic content to connect with their audience.</p>
+                        <a href="#" class="text-flashoot-blue hover:text-flashoot-purple transition font-semibold">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 4 -->
+                <article class="bg-flashoot-gray rounded-2xl overflow-hidden card-hover border border-gray-800">
+                    <div class="h-48 bg-gradient-to-br from-green-500 to-teal-500 flex items-center justify-center">
+                        <i class="fas fa-heart text-6xl text-white opacity-50"></i>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center gap-2 mb-3">
+                            <span class="text-xs bg-green-500 bg-opacity-20 text-green-500 px-3 py-1 rounded-full">Weddings</span>
+                            <span class="text-xs text-gray-500">7 min read</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Capturing Your Wedding Day: A Modern Approach</h3>
+                        <p class="text-gray-400 mb-4">Why couples are choosing quick, authentic reels over traditional wedding videos.</p>
+                        <a href="#" class="text-flashoot-blue hover:text-flashoot-purple transition font-semibold">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 5 -->
+                <article class="bg-flashoot-gray rounded-2xl overflow-hidden card-hover border border-gray-800">
+                    <div class="h-48 bg-gradient-to-br from-red-500 to-pink-500 flex items-center justify-center">
+                        <i class="fas fa-chart-line text-6xl text-white opacity-50"></i>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center gap-2 mb-3">
+                            <span class="text-xs bg-red-500 bg-opacity-20 text-red-500 px-3 py-1 rounded-full">Growth</span>
+                            <span class="text-xs text-gray-500">5 min read</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Instagram Algorithm 2026: What You Need to Know</h3>
+                        <p class="text-gray-400 mb-4">Stay ahead with the latest updates to Instagram's algorithm and how to optimize your reels.</p>
+                        <a href="#" class="text-flashoot-blue hover:text-flashoot-purple transition font-semibold">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 6 -->
+                <article class="bg-flashoot-gray rounded-2xl overflow-hidden card-hover border border-gray-800">
+                    <div class="h-48 bg-gradient-to-br from-indigo-500 to-purple-500 flex items-center justify-center">
+                        <i class="fas fa-users text-6xl text-white opacity-50"></i>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center gap-2 mb-3">
+                            <span class="text-xs bg-indigo-500 bg-opacity-20 text-indigo-500 px-3 py-1 rounded-full">Creator Economy</span>
+                            <span class="text-xs text-gray-500">8 min read</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Becoming a Reel Trix Creator: Success Stories</h3>
+                        <p class="text-gray-400 mb-4">Real stories from our creators who turned their passion into a thriving income source.</p>
+                        <a href="#" class="text-flashoot-blue hover:text-flashoot-purple transition font-semibold">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="text-center mt-12">
+                <a href="#" class="inline-block px-8 py-4 gradient-bg text-white font-bold rounded-xl hover:opacity-90 transition">
+                    View All Articles <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Info Section -->
+    <section id="contact" class="py-20 bg-flashoot-gray">
+        <div class="container mx-auto px-4">
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-4xl md:text-5xl font-black text-center mb-4">
+                    <span class="gradient-text">Get In Touch</span>
+                </h2>
+                <p class="text-center text-gray-400 mb-16 text-lg">We'd love to hear from you. Reach out to us anytime!</p>
+                
+                <div class="grid md:grid-cols-2 gap-12">
+                    <!-- Contact Information -->
+                    <div class="space-y-8">
+                        <div>
+                            <h3 class="text-2xl font-bold mb-6">Contact Information</h3>
+                            
+                            <div class="space-y-6">
+                                <!-- Phone -->
+                                <div class="flex items-start space-x-4">
+                                    <div class="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center flex-shrink-0">
+                                        <i class="fas fa-phone text-xl"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold mb-1">Phone</h4>
+                                        <a href="tel:+917780494179" class="text-gray-400 hover:text-flashoot-blue transition">+91 77804 94179</a>
+                                    </div>
+                                </div>
+                                
+                                <!-- Email -->
+                                <div class="flex items-start space-x-4">
+                                    <div class="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center flex-shrink-0">
+                                        <i class="fas fa-envelope text-xl"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold mb-1">Email</h4>
+                                        <a href="mailto:neerupudijohnsonnj@gmail.com" class="text-gray-400 hover:text-flashoot-blue transition">neerupudijohnsonnj@gmail.com</a>
+                                    </div>
+                                </div>
+                                
+                                <!-- Address -->
+                                <div class="flex items-start space-x-4">
+                                    <div class="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center flex-shrink-0">
+                                        <i class="fas fa-map-marker-alt text-xl"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold mb-1">Headquarters</h4>
+                                        <p class="text-gray-400">
+                                            Tadepalligudem<br>
+                                            Andhra Pradesh, India
+                                        </p>
+                                    </div>
+                                </div>
+                                
+                                <!-- Working Hours -->
+                                <div class="flex items-start space-x-4">
+                                    <div class="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center flex-shrink-0">
+                                        <i class="fas fa-clock text-xl"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold mb-1">Working Hours</h4>
+                                        <p class="text-gray-400">
+                                            24/7 Customer Support<br>
+                                            Bookings: Anytime
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Social Media -->
+                        <div>
+                            <h3 class="text-2xl font-bold mb-6">Follow Us</h3>
+                            <div class="flex space-x-4">
+                                <a href="#" class="w-12 h-12 bg-flashoot-dark rounded-lg flex items-center justify-center hover:bg-gradient-to-br hover:from-flashoot-blue hover:to-flashoot-purple transition">
+                                    <i class="fab fa-instagram text-xl"></i>
+                                </a>
+                                <a href="#" class="w-12 h-12 bg-flashoot-dark rounded-lg flex items-center justify-center hover:bg-gradient-to-br hover:from-flashoot-blue hover:to-flashoot-purple transition">
+                                    <i class="fab fa-facebook text-xl"></i>
+                                </a>
+                                <a href="#" class="w-12 h-12 bg-flashoot-dark rounded-lg flex items-center justify-center hover:bg-gradient-to-br hover:from-flashoot-blue hover:to-flashoot-purple transition">
+                                    <i class="fab fa-twitter text-xl"></i>
+                                </a>
+                                <a href="#" class="w-12 h-12 bg-flashoot-dark rounded-lg flex items-center justify-center hover:bg-gradient-to-br hover:from-flashoot-blue hover:to-flashoot-purple transition">
+                                    <i class="fab fa-linkedin text-xl"></i>
+                                </a>
+                                <a href="#" class="w-12 h-12 bg-flashoot-dark rounded-lg flex items-center justify-center hover:bg-gradient-to-br hover:from-flashoot-blue hover:to-flashoot-purple transition">
+                                    <i class="fab fa-youtube text-xl"></i>
+                                </a>
+                                <a href="#" class="w-12 h-12 bg-flashoot-dark rounded-lg flex items-center justify-center hover:bg-gradient-to-br hover:from-flashoot-blue hover:to-flashoot-purple transition">
+                                    <i class="fab fa-whatsapp text-xl"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Contact Form -->
+                    <div class="bg-flashoot-dark p-8 rounded-2xl border border-gray-800">
+                        <h3 class="text-2xl font-bold mb-6">Send Us a Message</h3>
+                        <form id="contactForm" class="space-y-4" action="https://formsubmit.co/neerupudijohnsonnj@gmail.com" method="POST">
+                            <!-- FormSubmit Configuration -->
+                            <input type="hidden" name="_subject" value="New Contact Form Submission - Reel Trix">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_template" value="table">
+                            <input type="hidden" name="_next" value="https://reeltrix.com/thank-you.html">
+                            
+                            <div>
+                                <label class="block text-sm font-semibold mb-2">Your Name</label>
+                                <input type="text" name="name" class="w-full bg-flashoot-gray border border-gray-700 rounded-lg px-4 py-3 focus:border-flashoot-blue focus:outline-none" placeholder="Enter your name" required>
+                            </div>
+                            
+                            <div>
+                                <label class="block text-sm font-semibold mb-2">Email Address</label>
+                                <input type="email" name="email" class="w-full bg-flashoot-gray border border-gray-700 rounded-lg px-4 py-3 focus:border-flashoot-blue focus:outline-none" placeholder="your@email.com" required>
+                            </div>
+                            
+                            <div>
+                                <label class="block text-sm font-semibold mb-2">Phone Number</label>
+                                <input type="tel" name="phone" class="w-full bg-flashoot-gray border border-gray-700 rounded-lg px-4 py-3 focus:border-flashoot-blue focus:outline-none" placeholder="10-digit mobile number" maxlength="10" pattern="[0-9]{10}">
+                            </div>
+                            
+                            <div>
+                                <label class="block text-sm font-semibold mb-2">Subject</label>
+                                <input type="text" name="subject" class="w-full bg-flashoot-gray border border-gray-700 rounded-lg px-4 py-3 focus:border-flashoot-blue focus:outline-none" placeholder="How can we help?" required>
+                            </div>
+                            
+                            <div>
+                                <label class="block text-sm font-semibold mb-2">Message</label>
+                                <textarea name="message" class="w-full bg-flashoot-gray border border-gray-700 rounded-lg px-4 py-3 focus:border-flashoot-blue focus:outline-none" rows="4" placeholder="Tell us more about your inquiry..." required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="w-full py-4 gradient-bg text-white font-bold rounded-xl hover:opacity-90 transition">
+                                <i class="fas fa-paper-plane mr-2"></i>Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-flashoot-dark border-t border-gray-800 py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <i class="fas fa-play-circle text-flashoot-blue text-2xl"></i>
+                        <span class="text-2xl font-bold">Reel Trix</span>
+                    </div>
+                    <p class="text-gray-400">World's first quick content service for Instagram Reels.</p>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Company</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-flashoot-blue transition">About</a></li>
+                        <li><a href="#features" class="hover:text-flashoot-blue transition">Features</a></li>
+                        <li><a href="#pricing" class="hover:text-flashoot-blue transition">Pricing</a></li>
+                        <li><a href="#" class="hover:text-flashoot-blue transition">Careers</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">For You</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#become" class="hover:text-flashoot-blue transition">Partner with us</a></li>
+                        <li><a href="#become" class="hover:text-flashoot-blue transition">Become a Creator</a></li>
+                        <li><a href="#blog" class="hover:text-flashoot-blue transition">Blog</a></li>
+                        <li><a href="#" class="hover:text-flashoot-blue transition">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Follow Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 bg-flashoot-gray rounded-full flex items-center justify-center hover:bg-flashoot-blue transition">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-flashoot-gray rounded-full flex items-center justify-center hover:bg-flashoot-blue transition">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-flashoot-gray rounded-full flex items-center justify-center hover:bg-flashoot-blue transition">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-flashoot-gray rounded-full flex items-center justify-center hover:bg-flashoot-blue transition">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 Flashoot. All rights reserved. | <a href="#" class="hover:text-flashoot-blue">Privacy Policy</a> | <a href="#" class="hover:text-flashoot-blue">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Booking Modal -->
+    <div id="bookingModal" class="fixed inset-0 bg-black bg-opacity-75 hidden items-center justify-center z-50 p-4">
+        <div class="bg-flashoot-gray rounded-2xl max-w-md w-full p-8 relative">
+            <button onclick="closeBookingModal()" class="absolute top-4 right-4 text-2xl hover:text-flashoot-blue transition">
+                <i class="fas fa-times"></i>
+            </button>
+            
+            <h3 class="text-3xl font-black mb-6 gradient-text">Book Your Reel Maker</h3>
+            
+            <form class="space-y-4">
+                <div>
+                    <label class="block text-sm font-semibold mb-2">Select City/Location</label>
+                    <select class="w-full bg-flashoot-dark border border-gray-700 rounded-lg px-4 py-3 focus:border-flashoot-blue focus:outline-none">
+                        <optgroup label="Telangana - Major Cities">
+                            <option>Hyderabad</option>
+                            <option>Warangal</option>
+                            <option>Nizamabad</option>
+                            <option>Khammam</option>
+                            <option>Karimnagar</option>
+                            <option>Ramagundam</option>
+                            <option>Mahbubnagar</option>
+                            <option>Nalgonda</option>
+                            <option>Adilabad</option>
+                            <option>Suryapet</option>
+                            <option>Siddipet</option>
+                            <option>Miryalaguda</option>
+                            <option>Jagtial</option>
+                            <option>Mancherial</option>
+                            <option>Nirmal</option>
+                            <option>Sangareddy</option>
+                            <option>Medak</option>
+                            <option>Vikarabad</option>
+                            <option>Nagarkurnool</option>
+                            <option>Gadwal</option>
+                        </optgroup>
+                        <optgroup label="Telangana - Towns & Villages">
+                            <option>Secunderabad</option>
+                            <option>Kukatpally</option>
+                            <option>LB Nagar</option>
+                            <option>Uppal</option>
+                            <option>Kompally</option>
+                            <option>Shamshabad</option>
+                            <option>Ghatkesar</option>
+                            <option>Jangaon</option>
+                            <option>Bhongir</option>
+                            <option>Kamareddy</option>
+                            <option>Bodhan</option>
+                            <option>Zaheerabad</option>
+                            <option>Tandur</option>
+                            <option>Wanaparthy</option>
+                            <option>Narayanpet</option>
+                            <option>Kothagudem</option>
+                            <option>Palwancha</option>
+                            <option>Bhadrachalam</option>
+                            <option>Bellampalle</option>
+                            <option>Peddapalli</option>
+                        </optgroup>
+                        <optgroup label="Andhra Pradesh - Major Cities">
+                            <option>Visakhapatnam</option>
+                            <option>Vijayawada</option>
+                            <option>Guntur</option>
+                            <option>Nellore</option>
+                            <option>Kurnool</option>
+                            <option>Kakinada</option>
+                            <option>Rajahmundry</option>
+                            <option>Tirupati</option>
+                            <option>Kadapa</option>
+                            <option>Anantapur</option>
+                            <option>Vizianagaram</option>
+                            <option>Eluru</option>
+                            <option>Ongole</option>
+                            <option>Nandyal</option>
+                            <option>Machilipatnam</option>
+                            <option>Adoni</option>
+                            <option>Tenali</option>
+                            <option>Chittoor</option>
+                            <option>Hindupur</option>
+                            <option>Proddatur</option>
+                        </optgroup>
+                        <optgroup label="Andhra Pradesh - Towns & Villages">
+                            <option>Amaravati</option>
+                            <option>Mangalagiri</option>
+                            <option>Tadepalligudem</option>
+                            <option>Chirala</option>
+                            <option>Narasaraopet</option>
+                            <option>Kavali</option>
+                            <option>Gudivada</option>
+                            <option>Bhimavaram</option>
+                            <option>Madanapalle</option>
+                            <option>Guntakal</option>
+                            <option>Dharmavaram</option>
+                            <option>Gudur</option>
+                            <option>Srikakulam</option>
+                            <option>Narasapuram</option>
+                            <option>Nuzvid</option>
+                            <option>Markapur</option>
+                            <option>Ponnur</option>
+                            <option>Chilakaluripet</option>
+                            <option>Sattenapalle</option>
+                            <option>Vinukonda</option>
+                            <option>Bapatla</option>
+                            <option>Palakollu</option>
+                            <option>Tanuku</option>
+                            <option>Amalapuram</option>
+                            <option>Pithapuram</option>
+                            <option>Anakapalle</option>
+                            <option>Bobbili</option>
+                            <option>Palasa</option>
+                            <option>Rayachoti</option>
+                            <option>Jammalamadugu</option>
+                        </optgroup>
+                        <optgroup label="Other Major Cities">
+                            <option>Bangalore</option>
+                            <option>Mumbai</option>
+                            <option>Delhi</option>
+                            <option>Chennai</option>
+                            <option>Pune</option>
+                            <option>Kolkata</option>
+                        </optgroup>
+                    </select>
+                </div>
+                
+                <div>
+                    <label class="block text-sm font-semibold mb-2">Select Package</label>
+                    <select class="w-full bg-flashoot-dark border border-gray-700 rounded-lg px-4 py-3 focus:border-flashoot-blue focus:outline-none">
+                        <option>Hourly Plan - ₹1,999</option>
+                        <option>Half-Day Plan - ₹4,999</option>
+                        <option>Day-Long Plan - ₹9,999</option>
+                        <option>Wedding Single Event - ₹14,999+</option>
+                        <option>Wedding Silver - ₹29,999+</option>
+                        <option>Wedding Gold - ₹59,999+</option>
+                        <option>Wedding Platinum/Luxe - ₹1,99,999+</option>
+                        <option>Business Package - Custom</option>
+                    </select>
+                </div>
+                
+                <div>
+                    <label class="block text-sm font-semibold mb-2">Your Name</label>
+                    <input type="text" class="w-full bg-flashoot-dark border border-gray-700 rounded-lg px-4 py-3 focus:border-flashoot-blue focus:outline-none" placeholder="Enter your name">
+                </div>
+                
+                <div>
+                    <label class="block text-sm font-semibold mb-2">Phone Number</label>
+                    <input type="tel" class="w-full bg-flashoot-dark border border-gray-700 rounded-lg px-4 py-3 focus:border-flashoot-blue focus:outline-none" placeholder="10-digit mobile number" maxlength="10" pattern="[0-9]{10}" required>
+                </div>
+                
+                <div class="flex items-center space-x-2">
+                    <input type="checkbox" id="femaleOption" class="w-4 h-4">
+                    <label for="femaleOption" class="text-sm">Request Female Reel Maker</label>
+                </div>
+                
+                <button type="submit" class="w-full py-4 gradient-bg text-white font-bold rounded-xl hover:opacity-90 transition">
+                    Confirm Booking
+                </button>
+                
+                <p class="text-xs text-gray-400 text-center">By booking, you agree to our Terms & Conditions</p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Flashooter Application Modal -->
+    <div id="flashooterModal" class="fixed inset-0 bg-black bg-opacity-75 hidden items-center justify-center z-50 p-4">
+        <div class="bg-flashoot-gray rounded-2xl max-w-md w-full p-8 relative">
+            <button onclick="closeFlashooterModal()" class="absolute top-4 right-4 text-2xl hover:text-flashoot-blue transition">
+                <i class="fas fa-times"></i>
+            </button>
+            
+            <h3 class="text-3xl font-black mb-6 gradient-text">Become a Reel Trix Creator</h3>
+            
+            <form class="space-y-4">
+                <div>
+                    <label class="block text-sm font-semibold mb-2">Full Name</label>
+                    <input type="text" class="w-full bg-flashoot-dark border border-gray-700 rounded-lg px-4 py-3 focus:border-flashoot-blue focus:outline-none" placeholder="Enter your name">
+                </div>
+                
+                <div>
+                    <label class="block text-sm font-semibold mb-2">Phone Number</label>
+                    <input type="tel" class="w-full bg-flashoot-dark border border-gray-700 rounded-lg px-4 py-3 focus:border-flashoot-blue focus:outline-none" placeholder="10-digit mobile number" maxlength="10" pattern="[0-9]{10}" required>
+                </div>
+                
+                <div>
+                    <label class="block text-sm font-semibold mb-2">Email</label>
+                    <input type="email" class="w-full bg-flashoot-dark border border-gray-700 rounded-lg px-4 py-3 focus:border-flashoot-blue focus:outline-none" placeholder="your@email.com">
+                </div>
+                
+                <div>
+                    <label class="block text-sm font-semibold mb-2">City</label>
+                    <select class="w-full bg-flashoot-dark border border-gray-700 rounded-lg px-4 py-3 focus:border-flashoot-blue focus:outline-none">
+                        <option>Hyderabad</option>
+                        <option>Bangalore</option>
+                        <option>Mumbai</option>
+                        <option>Delhi</option>
+                        <option>Chennai</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+                
+                <div>
+                    <label class="block text-sm font-semibold mb-2">Do you own an iPhone?</label>
+                    <select class="w-full bg-flashoot-dark border border-gray-700 rounded-lg px-4 py-3 focus:border-flashoot-blue focus:outline-none">
+                        <option>Yes</option>
+                        <option>No (We can provide)</option>
+                    </select>
+                </div>
+                
+                <div>
+                    <label class="block text-sm font-semibold mb-2">Previous Experience</label>
+                    <textarea class="w-full bg-flashoot-dark border border-gray-700 rounded-lg px-4 py-3 focus:border-flashoot-blue focus:outline-none" rows="3" placeholder="Tell us about your content creation experience..."></textarea>
+                </div>
+                
+                <button type="submit" class="w-full py-4 gradient-bg text-white font-bold rounded-xl hover:opacity-90 transition">
+                    Submit Application
+                </button>
+                
+                <p class="text-xs text-gray-400 text-center">We'll contact you within 48 hours for the certification process</p>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- JavaScript -->
+    <script>
+        // Booking Modal Functions
+        function openBookingModal() {
+            document.getElementById('bookingModal').classList.remove('hidden');
+            document.getElementById('bookingModal').classList.add('flex');
+            document.body.style.overflow = 'hidden';
+        }
+        
+        function closeBookingModal() {
+            document.getElementById('bookingModal').classList.add('hidden');
+            document.getElementById('bookingModal').classList.remove('flex');
+            document.body.style.overflow = 'auto';
+        }
+        
+        // Flashooter Modal Functions
+        function openFlashooterModal() {
+            document.getElementById('flashooterModal').classList.remove('hidden');
+            document.getElementById('flashooterModal').classList.add('flex');
+            document.body.style.overflow = 'hidden';
+        }
+        
+        function closeFlashooterModal() {
+            document.getElementById('flashooterModal').classList.add('hidden');
+            document.getElementById('flashooterModal').classList.remove('flex');
+            document.body.style.overflow = 'auto';
+        }
+        
+        // FAQ Toggle Function
+        function toggleFAQ(button) {
+            const content = button.nextElementSibling;
+            const icon = button.querySelector('i');
+            
+            content.classList.toggle('hidden');
+            icon.classList.toggle('rotate-180');
+        }
+        
+        // Smooth Scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+        
+        // Scroll Animation
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+        
+        // Observe all cards
+        document.addEventListener('DOMContentLoaded', () => {
+            const cards = document.querySelectorAll('.card-hover');
+            cards.forEach(card => {
+                card.style.opacity = '0';
+                card.style.transform = 'translateY(30px)';
+                card.style.transition = 'all 0.6s ease';
+                observer.observe(card);
+            });
+        });
+        
+        // Close modal on outside click
+        document.getElementById('bookingModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeBookingModal();
+            }
+        });
+        
+        document.getElementById('flashooterModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeFlashooterModal();
+            }
+        });
+        
+        // Close modal on Escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeBookingModal();
+                closeFlashooterModal();
+            }
+        });
+    </script>
+</body>
+</html>
